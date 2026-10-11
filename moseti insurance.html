@@ -59,7 +59,6 @@
   .card-header h2 { font-size:1rem; font-weight:700; color:var(--primary); }
   .card-body { padding:1.5rem; }
 
-  /* BUTTONS */
   .btn { display:inline-flex; align-items:center; gap:7px; padding:10px 18px; border-radius:9px; font-size:0.85rem; font-weight:600; cursor:pointer; border:none; font-family:inherit; transition:all 0.2s; }
   .btn-primary { background:var(--primary); color:#fff; }
   .btn-primary:hover { background:var(--primary-light); }
@@ -71,7 +70,6 @@
   .btn-block { width:100%; justify-content:center; }
   .btn:disabled { opacity:0.5; cursor:not-allowed; }
 
-  /* FORMS */
   .form-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1rem; }
   .form-group { margin-bottom:0.25rem; }
   .form-group label { display:block; font-size:0.76rem; font-weight:600; color:var(--text-muted); margin-bottom:5px; text-transform:uppercase; letter-spacing:0.4px; }
@@ -81,14 +79,12 @@
   .form-group input:read-only { background:#f0f6f4; color:var(--primary); font-weight:600; }
   .form-group .hint { font-size:0.72rem; color:var(--text-muted); margin-top:4px; }
 
-  /* ALERTS */
   .alert { padding:12px 16px; border-radius:10px; font-size:0.84rem; margin-bottom:1rem; display:flex; align-items:flex-start; gap:10px; }
   .alert-info { background:#e8f2f1; color:var(--primary); border-left:4px solid var(--primary-light); }
   .alert-warn { background:#fdf3e3; color:#8a5a1a; border-left:4px solid var(--accent); }
   .alert-success { background:#e3f3ec; color:#1e5a3e; border-left:4px solid var(--success); }
   .alert-danger { background:#fbe9e7; color:#8a2a1a; border-left:4px solid var(--danger); }
 
-  /* BADGES */
   .badge { display:inline-block; padding:3px 10px; border-radius:20px; font-size:0.7rem; font-weight:700; }
   .badge-green { background:#e3f3ec; color:var(--success); }
   .badge-amber { background:#fdf3e3; color:var(--warning); }
@@ -97,7 +93,6 @@
   .badge-purple { background:#ece3f5; color:#6a3a9e; }
   .badge-gray { background:#eef4f2; color:var(--text-muted); }
 
-  /* STEPS */
   .steps { display:flex; justify-content:space-between; margin-bottom:2rem; position:relative; }
   .steps::before { content:''; position:absolute; top:18px; left:40px; right:40px; height:2px; background:var(--border); z-index:0; }
   .step { display:flex; flex-direction:column; align-items:center; gap:6px; position:relative; z-index:1; flex:1; }
@@ -107,7 +102,6 @@
   .step-label { font-size:0.72rem; font-weight:600; color:var(--text-muted); text-align:center; }
   .step.active .step-label { color:var(--primary); }
 
-  /* OTP */
   .otp-inputs { display:flex; gap:10px; justify-content:center; margin:1.5rem 0; }
   .otp-inputs input { width:52px; height:62px; text-align:center; font-size:1.6rem; font-weight:800; border:2px solid var(--border); border-radius:12px; color:var(--primary); font-family:'Courier New',monospace; }
   .otp-inputs input:focus { outline:none; border-color:var(--accent); box-shadow:0 0 0 4px rgba(232,163,61,0.2); }
@@ -116,7 +110,6 @@
   .otp-timer { font-weight:700; color:var(--primary); font-family:'Courier New',monospace; }
   .otp-timer.expiring { color:var(--danger); }
 
-  /* PAYMENT */
   .payment-options { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; margin:1rem 0; }
   .pay-option { padding:1rem; border:2px solid var(--border); border-radius:12px; cursor:pointer; text-align:center; transition:all 0.2s; background:#fff; }
   .pay-option:hover { border-color:var(--primary-light); }
@@ -125,7 +118,6 @@
   .pay-option .pay-name { font-weight:700; font-size:0.85rem; color:var(--primary); }
   .pay-option .pay-desc { font-size:0.7rem; color:var(--text-muted); }
 
-  /* PLANS */
   .plans { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.25rem; margin:1rem 0; }
   .plan-card { background:#fff; border:2px solid var(--border); border-radius:16px; padding:1.5rem; position:relative; cursor:pointer; transition:all 0.2s; }
   .plan-card:hover { transform:translateY(-4px); box-shadow:var(--shadow-lg); }
@@ -138,7 +130,6 @@
   .plan-features li { font-size:0.82rem; padding:4px 0; }
   .plan-features li::before { content:'✓ '; color:var(--success); font-weight:800; }
 
-  /* PRODUCT GRID */
   .product-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1.25rem; margin:1rem 0; }
   .product-card { background:#fff; border-radius:16px; padding:1.5rem; border:1.5px solid var(--border); cursor:pointer; transition:all 0.2s; position:relative; overflow:hidden; display:flex; flex-direction:column; }
   .product-card:hover { transform:translateY(-4px); box-shadow:var(--shadow-lg); }
@@ -154,7 +145,6 @@
   .product-price-tag strong { color:var(--primary); font-size:1rem; display:block; }
   .product-card .btn { margin-top:auto; }
 
-  /* TIER CARDS */
   .tier-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1.25rem; margin:1rem 0; }
   .tier-card { border-radius:16px; padding:1.5rem; cursor:pointer; transition:all 0.2s; border:3px solid transparent; background:#fff; }
   .tier-card.gold { border-color:var(--gold); background:linear-gradient(180deg,#fffbf0 0%,#fff 40%); }
@@ -181,13 +171,11 @@
   .tier-benefits li .bl { color:var(--text-muted); }
   .tier-benefits li .bv { font-weight:700; color:var(--primary); }
 
-  /* DUAL TOGGLE */
   .dual-pricing-toggle { display:flex; background:#eef4f2; border-radius:12px; padding:5px; margin:1rem 0; max-width:420px; }
   .dual-pricing-toggle button { flex:1; background:transparent; border:none; padding:10px 16px; border-radius:9px; font-size:0.84rem; font-weight:700; color:var(--text-muted); cursor:pointer; font-family:inherit; }
   .dual-pricing-toggle button.active { background:#fff; color:var(--primary); box-shadow:0 2px 8px rgba(0,0,0,0.08); }
   .dual-pricing-toggle button.inst.active { background:var(--corporate); color:#fff; }
 
-  /* TABLES */
   .table-wrap { overflow-x:auto; }
   table { width:100%; border-collapse:collapse; font-size:0.84rem; }
   th { text-align:left; padding:10px 14px; background:#f0f6f4; color:var(--primary); font-weight:700; font-size:0.72rem; text-transform:uppercase; border-bottom:2px solid var(--border); white-space:nowrap; }
@@ -204,12 +192,10 @@
   .tier-table td:first-child { font-weight:600; }
   .tier-table td.num { font-weight:700; color:var(--primary); }
 
-  /* TABS */
   .tabs { display:flex; gap:2px; border-bottom:2px solid var(--border); margin-bottom:1.25rem; flex-wrap:wrap; }
   .tab { padding:9px 18px; background:none; border:none; font-size:0.84rem; font-weight:600; color:var(--text-muted); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; font-family:inherit; }
   .tab.active { color:var(--primary); border-bottom-color:var(--accent); }
 
-  /* MODAL */
   .modal-overlay { display:none; position:fixed; inset:0; background:rgba(13,40,40,0.55); backdrop-filter:blur(4px); z-index:200; align-items:center; justify-content:center; padding:1rem; }
   .modal-overlay.open { display:flex; }
   .modal { background:#fff; border-radius:16px; width:100%; max-width:560px; max-height:90vh; overflow-y:auto; box-shadow:0 20px 60px rgba(0,0,0,0.3); }
@@ -220,7 +206,6 @@
   .modal-body { padding:1.5rem; }
   .modal-footer { padding:1rem 1.5rem; border-top:1px solid var(--border); display:flex; justify-content:flex-end; gap:10px; }
 
-  /* MISC */
   .flex-between { display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
   .mt-1 { margin-top:0.5rem; } .mt-2 { margin-top:1rem; }
   .text-muted { color:var(--text-muted); } .text-sm { font-size:0.8rem; }
@@ -237,7 +222,6 @@
   @keyframes burst { 0%{transform:scale(0);opacity:0;} 60%{transform:scale(1.15);opacity:1;} 100%{transform:scale(1);} }
   .nav-badge { background:var(--danger); color:#fff; border-radius:10px; padding:1px 7px; font-size:0.65rem; font-weight:800; margin-left:4px; }
 
-  /* BANNERS */
   .general-banner,.student-banner { color:#fff; border-radius:16px; padding:2rem; margin:2rem 0; display:flex; align-items:center; gap:2rem; flex-wrap:wrap; position:relative; overflow:hidden; }
   .general-banner { background:linear-gradient(135deg,#0a3d3d,#0d4f4f); }
   .student-banner { background:linear-gradient(135deg,#1a4f8f,#1c7ed6); }
@@ -250,11 +234,68 @@
   .gb-actions,.sb-actions { display:flex; gap:10px; flex-wrap:wrap; }
   .general-banner button.btn-outline,.student-banner button.btn-outline { background:rgba(255,255,255,0.15); color:#fff; border-color:rgba(255,255,255,0.3); }
 
-  /* ID CARD */
   .id-card-visual { background:linear-gradient(135deg,#0d4f4f 0%,#1a7a7a 100%); border-radius:12px; padding:1.25rem; color:#fff; position:relative; overflow:hidden; }
   .id-card-visual::before { content:'🇰🇪'; position:absolute; top:-20px; right:-20px; font-size:8rem; opacity:0.1; }
   .id-card-visual .ic-label { font-size:0.65rem; text-transform:uppercase; letter-spacing:1px; opacity:0.8; font-weight:700; }
   .id-card-visual .ic-value { font-size:1rem; font-weight:700; margin-bottom:10px; }
+
+  .stk-overlay { position:fixed; inset:0; background:rgba(13,40,40,0.7); backdrop-filter:blur(6px); z-index:9999; display:none; align-items:center; justify-content:center; padding:1rem; }
+  .stk-overlay.open { display:flex; }
+  .stk-phone { width:340px; background:#111; border-radius:36px; padding:14px; box-shadow:0 30px 80px rgba(0,0,0,0.5); border:3px solid #222; animation:stkIn 0.4s ease; }
+  @keyframes stkIn { from{transform:translateY(40px) scale(0.95);opacity:0;} to{transform:none;opacity:1;} }
+  .stk-screen { background:linear-gradient(180deg,#0a3d3d,#0d4f4f); border-radius:26px; padding:1.5rem 1.2rem; color:#fff; min-height:480px; display:flex; flex-direction:column; }
+  .stk-status { font-size:0.7rem; opacity:0.7; text-align:center; letter-spacing:1px; text-transform:uppercase; }
+  .stk-time { font-size:1.6rem; font-weight:300; text-align:center; margin:4px 0 1rem; }
+  .stk-mpesa-logo { background:#2ecc71; color:#fff; font-weight:900; font-size:1.4rem; padding:10px 0; text-align:center; border-radius:14px; margin-bottom:1rem; letter-spacing:1px; }
+  .stk-msg { background:rgba(255,255,255,0.1); border-radius:14px; padding:1rem; font-size:0.84rem; line-height:1.5; }
+  .stk-msg strong { color:#2ecc71; }
+  .stk-spinner { width:44px; height:44px; border:4px solid rgba(46,204,113,0.25); border-top-color:#2ecc71; border-radius:50%; margin:1.5rem auto; animation:spin 0.9s linear infinite; }
+  .stk-check { width:64px; height:64px; border-radius:50%; background:#2ecc71; display:grid; place-items:center; font-size:2rem; color:#fff; margin:1.5rem auto; animation:burst 0.5s ease-out; }
+  .stk-cancel-btn { margin-top:auto; background:rgba(255,255,255,0.1); color:#fff; border:none; padding:10px; border-radius:10px; font-size:0.8rem; cursor:pointer; font-family:inherit; }
+  .stk-cancel-btn:hover { background:rgba(255,255,255,0.2); }
+
+  .cert-wrap { background:#fff; border-radius:12px; overflow:hidden; box-shadow:0 10px 40px rgba(0,0,0,0.15); border:1px solid #d8cfa8; margin:1.5rem 0; position:relative; }
+  .cert-inner { padding:2rem 2.2rem; background:radial-gradient(circle at top right, rgba(201,162,39,0.07), transparent 60%), radial-gradient(circle at bottom left, rgba(13,79,79,0.06), transparent 60%), #fffdf6; border:8px double #c9a227; position:relative; }
+  .cert-watermark { position:absolute; inset:0; display:grid; place-items:center; font-size:14rem; font-weight:900; color:rgba(13,79,79,0.04); pointer-events:none; user-select:none; font-family:Georgia,serif; }
+  .cert-header { text-align:center; border-bottom:2px solid #c9a227; padding-bottom:1rem; margin-bottom:1.25rem; position:relative; z-index:1; }
+  .cert-brand { display:flex; align-items:center; justify-content:center; gap:12px; margin-bottom:6px; }
+  .cert-brand-icon { width:48px; height:48px; background:linear-gradient(135deg,#0d4f4f,#1a7a7a); color:#e8a33d; border-radius:12px; display:grid; place-items:center; font-size:1.4rem; font-weight:800; font-family:Georgia,serif; }
+  .cert-brand-name { font-size:1.4rem; font-weight:800; color:#0d4f4f; letter-spacing:1px; }
+  .cert-brand-tag { font-size:0.7rem; color:#8a6d1a; text-transform:uppercase; letter-spacing:2px; font-weight:700; }
+  .cert-title { font-family:Georgia,serif; font-size:1.5rem; font-weight:800; color:#0d4f4f; margin-top:1rem; letter-spacing:2px; text-transform:uppercase; }
+  .cert-subtitle { font-size:0.8rem; color:#8a6d1a; font-weight:700; letter-spacing:1px; margin-top:4px; }
+  .cert-body { position:relative; z-index:1; }
+  .cert-section { margin-bottom:1.1rem; }
+  .cert-section-title { font-size:0.72rem; text-transform:uppercase; letter-spacing:2px; font-weight:800; color:#8a6d1a; border-bottom:1px solid #e8dca8; padding-bottom:4px; margin-bottom:8px; }
+  .cert-grid { display:grid; grid-template-columns:1fr 1fr; gap:6px 1.5rem; font-size:0.85rem; }
+  .cert-grid .cl { color:#5a6e6e; font-size:0.75rem; }
+  .cert-grid .cv { font-weight:700; color:#1a2e2e; margin-bottom:6px; }
+  .cert-benefits { list-style:none; font-size:0.82rem; }
+  .cert-benefits li { display:flex; justify-content:space-between; padding:5px 0; border-bottom:1px dashed #e8dca8; }
+  .cert-benefits li strong { color:#0d4f4f; }
+  .cert-footer { margin-top:1.5rem; padding-top:1rem; border-top:2px solid #c9a227; display:flex; justify-content:space-between; align-items:flex-end; gap:1rem; flex-wrap:wrap; }
+  .cert-seal { width:90px; height:90px; border-radius:50%; border:3px solid #c9a227; display:grid; place-items:center; text-align:center; background:linear-gradient(135deg,#fdf3e3,#fff); color:#8a6d1a; font-size:0.6rem; font-weight:800; letter-spacing:1px; line-height:1.3; box-shadow:0 4px 12px rgba(201,162,39,0.3); }
+  .cert-seal .seal-inner { font-size:1.6rem; }
+  .cert-sign { text-align:right; font-size:0.8rem; }
+  .cert-sign .sig-line { border-top:1.5px solid #1a2e2e; padding-top:4px; margin-top:34px; font-weight:700; color:#0d4f4f; }
+  .cert-sign .sig-role { color:#5a6e6e; font-size:0.72rem; }
+  .cert-qr { width:80px; height:80px; background:repeating-conic-gradient(#0d4f4f 0% 25%, #fff 0% 50%) 0 0 / 16px 16px; border:4px solid #fff; box-shadow:0 0 0 2px #0d4f4f; border-radius:6px; }
+  .cert-actions { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; padding:1rem; background:#fafcfb; border-top:1px solid #e8dca8; }
+  @media print { body * { visibility:hidden; } .cert-wrap, .cert-wrap * { visibility:visible; } .cert-wrap { position:absolute; left:0; top:0; width:100%; box-shadow:none; border:none; } .cert-actions { display:none !important; } }
+  @media(max-width:700px){ .cert-grid{grid-template-columns:1fr;} .cert-inner{padding:1.25rem;} }
+
+  .delivery-row { display:flex; align-items:center; gap:14px; padding:14px; border:1.5px solid var(--border); border-radius:12px; margin-bottom:10px; background:#fafcfb; transition:all 0.3s; }
+  .delivery-row.sending { border-color:var(--accent); background:#fdf3e3; }
+  .delivery-row.sent { border-color:var(--success); background:#e3f3ec; }
+  .delivery-row.failed { border-color:var(--danger); background:#fbe9e7; }
+  .dv-icon { font-size:1.6rem; }
+  .dv-body { flex:1; min-width:0; }
+  .dv-title { font-weight:800; color:var(--primary); font-size:0.9rem; }
+  .dv-target { font-size:0.75rem; color:var(--text-muted); word-break:break-all; }
+  .dv-status { font-size:0.72rem; font-weight:800; padding:4px 10px; border-radius:20px; background:#eef4f2; color:var(--text-muted); text-transform:uppercase; white-space:nowrap; }
+  .delivery-row.sending .dv-status { background:#fdf3e3; color:var(--warning); }
+  .delivery-row.sent .dv-status { background:#e3f3ec; color:var(--success); }
+  .delivery-row.failed .dv-status { background:#fbe9e7; color:var(--danger); }
 </style>
 </head>
 <body>
@@ -313,9 +354,9 @@
     <div class="card">
       <div class="card-header"><h2>Why Moseti?</h2></div>
       <div class="card-body">
-        <div class="alert alert-success"><span>⚡</span><div><strong>ID-based auto-enrollment.</strong> Enter your National ID and we pull your details from the national registry.</div></div>
-        <div class="alert alert-info"><span>🔐</span><div><strong>OTP verification.</strong> Secure 6-digit codes generated with calculus-based RNG.</div></div>
-        <div class="alert alert-info"><span>💾</span><div><strong>Real persistence.</strong> All registrations saved to SQLite database.</div></div>
+        <div class="alert alert-success"><span>⚡</span><div><strong>Fast signup.</strong> Enter your details and get covered in minutes.</div></div>
+        <div class="alert alert-info"><span>🔐</span><div><strong>OTP verification.</strong> Secure 6-digit codes.</div></div>
+        <div class="alert alert-info"><span>📤</span><div><strong>Auto-delivery.</strong> Certificate sent to email &amp; WhatsApp instantly.</div></div>
       </div>
     </div>
 
@@ -618,7 +659,7 @@
   <div class="card">
     <div class="card-body">
       <div class="steps" id="signupSteps">
-        <div class="step active" data-step="1"><div class="step-circle">1</div><div class="step-label">ID &amp; Details</div></div>
+        <div class="step active" data-step="1"><div class="step-circle">1</div><div class="step-label">Your Details</div></div>
         <div class="step" data-step="2"><div class="step-circle">2</div><div class="step-label">Verify OTP</div></div>
         <div class="step" data-step="3"><div class="step-circle">3</div><div class="step-label">Payment</div></div>
         <div class="step" data-step="4"><div class="step-circle">4</div><div class="step-label">Confirmation</div></div>
@@ -627,49 +668,48 @@
       <!-- STEP 1 -->
       <div id="signupStep1">
         <h2 style="color:var(--primary); margin-bottom:1rem;">Step 1 — Your Details</h2>
-        <div class="alert alert-info"><span>ℹ️</span><div>Enter your 8-digit National ID. We'll fetch your details from the national registry.</div></div>
+        <div class="alert alert-info"><span>ℹ️</span><div>Fill in your personal details below. All fields marked <span style="color:var(--danger);">*</span> are required.</div></div>
 
-        <div class="form-group">
-          <label>National ID Number <span class="req">*</span></label>
-          <div style="display:flex; gap:8px;">
-            <input type="text" id="suId" placeholder="8-digit ID" maxlength="8" style="flex:1;">
-            <button class="btn btn-primary" id="lookupBtn" onclick="lookupId()">Retrieve Details</button>
-          </div>
-          <div class="hint">Test IDs: 12345678 · 23456789 · 11111111 (student) · 55555555 (bodaboda)</div>
-          <div class="error" id="suIdError" style="display:none; color:var(--danger); font-size:0.72rem; margin-top:4px;"></div>
-        </div>
-
-        <div id="suPersonalDetails" style="display:none; margin-top:1.5rem;">
-          <div class="id-card-visual" style="margin-bottom:1.25rem;">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start;">
-              <div>
-                <div class="ic-label">Full Name</div>
-                <div class="ic-value" id="icName">—</div>
-                <div class="ic-label">ID Number</div>
-                <div class="ic-value" id="icId">—</div>
-              </div>
-              <div style="text-align:right;">
-                <div class="ic-label">Date of Birth</div>
-                <div class="ic-value" id="icDob">—</div>
-                <div class="ic-label">Gender</div>
-                <div class="ic-value" id="icGender">—</div>
-              </div>
+        <div id="suPersonalDetails">
+          <h3 style="color:var(--primary); margin:0.5rem 0 0.75rem; font-size:1rem;">👤 Personal Details</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Full Name <span class="req">*</span></label>
+              <input type="text" id="suFullName" placeholder="e.g. John Kamau Mwangi">
             </div>
-            <div style="display:flex; justify-content:space-between; margin-top:10px;">
-              <div>
-                <div class="ic-label">County</div>
-                <div class="ic-value" id="icCounty">—</div>
-              </div>
-              <div style="text-align:right;">
-                <div class="ic-label">Citizenship</div>
-                <div class="ic-value" id="icCitizen">Kenyan</div>
-              </div>
+            <div class="form-group">
+              <label>National ID Number <span class="req">*</span></label>
+              <input type="text" id="suId" placeholder="8-digit ID" maxlength="8">
+              <div class="hint">Test IDs: 12345678 · 23456789</div>
+              <div class="error" id="suIdError" style="display:none; color:var(--danger); font-size:0.72rem; margin-top:4px;"></div>
+            </div>
+            <div class="form-group">
+              <label>Gender <span class="req">*</span></label>
+              <select id="suGender">
+                <option value="">Select…</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Date of Birth <span class="req">*</span></label>
+              <input type="date" id="suDob">
+            </div>
+            <div class="form-group">
+              <label>County <span class="req">*</span></label>
+              <input type="text" id="suCounty" placeholder="e.g. Nairobi">
+            </div>
+            <div class="form-group">
+              <label>Email <span class="req">*</span></label>
+              <input type="email" id="suEmail" placeholder="you@example.com">
+            </div>
+            <div class="form-group">
+              <label>Phone Number <span class="req">*</span></label>
+              <input type="tel" id="suPhone" placeholder="e.g. 0712345678">
             </div>
           </div>
 
-          <div class="alert alert-success"><span>✓</span><div><strong>Identity verified.</strong> Details retrieved from national registry.</div></div>
-
-          <!-- STUDENT -->
           <div id="suStudentFields" style="display:none;">
             <h3 style="color:#1c7ed6; margin:1.5rem 0 0.75rem; font-size:1rem;">🎓 Student Details</h3>
             <div class="form-grid">
@@ -680,7 +720,6 @@
             </div>
           </div>
 
-          <!-- BODABODA -->
           <div id="suBodabodaFields" style="display:none;">
             <h3 style="color:var(--bodaboda); margin:1.5rem 0 0.75rem; font-size:1rem;">🏍️ Bodaboda Details</h3>
             <div class="form-grid">
@@ -690,7 +729,6 @@
             </div>
           </div>
 
-          <!-- CORPORATE -->
           <div id="suCorporateFields" style="display:none;">
             <h3 style="color:var(--corporate); margin:1.5rem 0 0.75rem; font-size:1rem;">🏢 Company Details</h3>
             <div class="form-grid">
@@ -701,23 +739,21 @@
             </div>
           </div>
 
-          <h3 style="color:var(--primary); margin:1.5rem 0 0.75rem; font-size:1rem;">Contact</h3>
+          <h3 style="color:var(--primary); margin:1.5rem 0 0.75rem; font-size:1rem;">👨‍👩‍👧 Next of Kin</h3>
           <div class="form-grid">
-            <div class="form-group"><label>Email <span class="req">*</span></label><input type="email" id="suEmail"></div>
-            <div class="form-group"><label>Phone <span class="req">*</span></label><input type="tel" id="suPhone"></div>
-          </div>
-
-          <h3 style="color:var(--primary); margin:1.5rem 0 0.75rem; font-size:1rem;">Next of Kin</h3>
-          <div class="form-grid">
-            <div class="form-group"><label>Full Name <span class="req">*</span></label><input type="text" id="suKinName"></div>
+            <div class="form-group"><label>Full Name <span class="req">*</span></label><input type="text" id="suKinName" placeholder="e.g. Mary Wanjiku"></div>
             <div class="form-group"><label>Relationship <span class="req">*</span></label>
-              <select id="suKinRelation"><option value="">Select…</option><option>Spouse</option><option>Parent</option><option>Sibling</option><option>Child</option><option>Guardian</option><option>Other</option></select>
+              <select id="suKinRelation">
+                <option value="">Select…</option>
+                <option>Spouse</option><option>Parent</option><option>Sibling</option>
+                <option>Child</option><option>Guardian</option><option>Other</option>
+              </select>
             </div>
-            <div class="form-group"><label>Phone</label><input type="tel" id="suKinPhone"></div>
-            <div class="form-group"><label>ID Number</label><input type="text" id="suKinId"></div>
+            <div class="form-group"><label>Next of Kin Phone <span class="req">*</span></label><input type="tel" id="suKinPhone" placeholder="e.g. 0722334455"></div>
+            <div class="form-group"><label>Next of Kin ID Number</label><input type="text" id="suKinId" placeholder="Optional"></div>
           </div>
 
-          <h3 style="color:var(--primary); margin:1.5rem 0 0.75rem; font-size:1rem;">Plan Selection</h3>
+          <h3 style="color:var(--primary); margin:1.5rem 0 0.75rem; font-size:1rem;">📋 Plan Selection</h3>
           <div class="form-group">
             <label>Choose Your Plan</label>
             <select id="suPlan" onchange="onPlanChange()">
@@ -752,12 +788,26 @@
             <select id="suBillingFreq"><option value="monthly" selected>Monthly</option><option value="quarterly">Quarterly (−2%)</option><option value="annual">Annual (−5%)</option></select>
           </div>
 
-          <h3 style="color:var(--primary); margin:1.5rem 0 0.75rem; font-size:1rem;">Payment Method</h3>
+          <h3 style="color:var(--primary); margin:1.5rem 0 0.75rem; font-size:1rem;">💳 Payment Method</h3>
           <div class="payment-options" id="suPaymentOptions">
             <div class="pay-option" data-method="mpesa" onclick="selectPayment('mpesa')"><div class="pay-icon">📱</div><div class="pay-name">M-Pesa</div><div class="pay-desc">Safaricom</div></div>
             <div class="pay-option" data-method="airtel" onclick="selectPayment('airtel')"><div class="pay-icon">📲</div><div class="pay-name">Airtel Money</div><div class="pay-desc">Airtel</div></div>
             <div class="pay-option" data-method="card" onclick="selectPayment('card')"><div class="pay-icon">💳</div><div class="pay-name">Card</div><div class="pay-desc">Visa/MC</div></div>
             <div class="pay-option" data-method="bank" onclick="selectPayment('bank')"><div class="pay-icon">🏦</div><div class="pay-name">Bank</div><div class="pay-desc">Transfer</div></div>
+          </div>
+
+          <!-- CONSENT -->
+          <div class="form-group" style="margin-top:1.5rem; padding:1rem; background:#f0f6f4; border-radius:10px;">
+            <label style="display:flex; align-items:flex-start; gap:10px; cursor:pointer; text-transform:none; letter-spacing:normal; font-size:0.84rem; color:var(--text); font-weight:500;">
+              <input type="checkbox" id="suConsent" style="width:18px; height:18px; margin-top:2px; flex-shrink:0;">
+              <span>
+                I confirm I have read and agree to the
+                <a href="#" onclick="openPolicy('terms'); return false;" style="color:var(--primary); font-weight:700;">Terms &amp; Conditions</a>,
+                <a href="#" onclick="openPolicy('privacy'); return false;" style="color:var(--primary); font-weight:700;">Privacy Policy</a>, and
+                <a href="#" onclick="openPolicy('consent'); return false;" style="color:var(--primary); font-weight:700;">Data Processing Consent</a>
+                (Kenya DPA 2019).
+              </span>
+            </label>
           </div>
 
           <div class="flex-between mt-2">
@@ -878,6 +928,7 @@
     <div class="grid-2">
       <div class="card"><div class="card-header"><h2>Recent Activity</h2></div><div class="card-body" id="mActivity">—</div></div>
       <div class="card"><div class="card-header"><h2>Quick Actions</h2></div><div class="card-body">
+        <button class="btn btn-accent btn-block" style="margin-bottom:10px;" onclick="openCertificate(currentMember.member.member_id)">📜 View Insurance Certificate</button>
         <button class="btn btn-primary btn-block" style="margin-bottom:10px;" onclick="switchTabByName('claims')">📄 File a Claim</button>
         <button class="btn btn-outline btn-block" onclick="switchTabByName('account')">🔐 Change Password</button>
       </div></div>
@@ -922,26 +973,22 @@
 </main>
 
 <footer>
-  <strong>Moseti Insurance</strong> — Running on Node.js + SQLite<br>
+  <strong>Moseti Insurance</strong> — Licensed insurance platform<br>
   Customer Care: <a href="tel:0743663951">📞 0743663951</a>
   &nbsp;·&nbsp;
   <a href="mailto:michaelmoseti49@gmail.com">✉️ michaelmoseti49@gmail.com</a>
-  <br><span style="font-size:0.72rem;">Mon–Sat, 8:00 AM – 6:00 PM EAT · Emergency line 24/7 for active claims</span>
+  <br><span style="font-size:0.72rem;">Mon–Sat, 8:00 AM – 6:00 PM EAT · Emergency line 24/7</span>
 </footer>
 
 <!-- CUSTOMER CARE WIDGET -->
 <div id="careWidget" style="position:fixed; bottom:20px; right:20px; z-index:9998;">
   <button onclick="toggleCarePanel()" style="background:var(--primary); color:#fff; border:none; border-radius:50px; padding:14px 20px; font-size:0.9rem; font-weight:700; cursor:pointer; box-shadow:0 8px 24px rgba(13,79,79,0.4); display:flex; align-items:center; gap:8px; font-family:inherit;">
-    <span style="font-size:1.2rem;">💬</span>
-    <span>Customer Care</span>
+    <span style="font-size:1.2rem;">💬</span><span>Customer Care</span>
   </button>
   <div id="carePanel" style="display:none; position:absolute; bottom:70px; right:0; width:320px; background:#fff; border-radius:16px; box-shadow:0 20px 60px rgba(0,0,0,0.25); padding:1.5rem; border:1px solid var(--border);">
     <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
       <div style="font-weight:800; color:var(--primary); font-size:1rem;">Moseti Customer Care</div>
       <button onclick="toggleCarePanel()" style="background:none; border:none; font-size:1.2rem; cursor:pointer; color:var(--text-muted);">×</button>
-    </div>
-    <div style="background:#f0f6f4; border-radius:10px; padding:1rem; margin-bottom:1rem; font-size:0.82rem; color:var(--text-muted);">
-      We're here to help. Reach us through any of these channels:
     </div>
     <a href="tel:0743663951" style="display:flex; align-items:center; gap:12px; padding:12px; border-radius:10px; background:linear-gradient(135deg,#0d4f4f,#1a7a7a); color:#fff; text-decoration:none; margin-bottom:10px; font-weight:600;">
       <span style="font-size:1.4rem;">📞</span>
@@ -992,6 +1039,7 @@
         <div class="form-group"><label>Receipt No.</label><input type="text" id="claimReceipt"></div>
       </div>
       <div class="form-group mt-1"><label>Description</label><textarea id="claimDesc" rows="3"></textarea></div>
+      <div class="form-group mt-1"><label>Attach Receipts / Documents</label><input type="file" id="claimFiles" multiple accept="image/*,application/pdf"></div>
     </div>
     <div class="modal-footer">
       <button class="btn btn-outline" onclick="closeModal('claimModal')">Cancel</button>
@@ -1004,7 +1052,7 @@
   <div class="modal modal-lg">
     <div class="modal-header"><h3>Admin — Registered Members</h3><button class="modal-close" onclick="closeModal('adminModal')">&times;</button></div>
     <div class="modal-body">
-      <div class="alert alert-info"><span>📊</span><div>All members from <strong>moseti.db</strong>. Data is persistent.</div></div>
+      <div class="alert alert-info"><span>📊</span><div>All members from the database. Data is persistent.</div></div>
       <div class="table-wrap">
         <table><thead><tr><th>Member ID</th><th>Name</th><th>Email</th><th>Product</th><th>Status</th><th>Actions</th></tr></thead>
         <tbody id="adminTable"><tr><td colspan="6" class="text-center text-muted">Loading…</td></tr></tbody></table>
@@ -1017,7 +1065,77 @@
   </div>
 </div>
 
+<!-- M-PESA STK PROMPT -->
+<div class="stk-overlay" id="stkOverlay">
+  <div class="stk-phone">
+    <div class="stk-screen">
+      <div class="stk-status" id="stkStatusTop">M-PESA</div>
+      <div class="stk-time" id="stkClock">--:--</div>
+      <div class="stk-mpesa-logo">M-PESA</div>
+      <div class="stk-msg" id="stkMsg">Enter PIN…</div>
+      <div id="stkProgress"></div>
+      <button class="stk-cancel-btn" id="stkCancelBtn" onclick="cancelStk()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- CERTIFICATE MODAL -->
+<div class="modal-overlay" id="certModal">
+  <div class="modal modal-lg">
+    <div class="modal-header">
+      <h3>📜 Insurance Certificate &amp; Policy Agreement</h3>
+      <button class="modal-close" onclick="closeModal('certModal')">&times;</button>
+    </div>
+    <div class="modal-body" id="certBody"></div>
+    <div class="modal-footer">
+      <button class="btn btn-outline" onclick="printCertificate()">🖨️ Print / Save PDF</button>
+      <button class="btn btn-outline" onclick="downloadCertificate(currentMember.member.member_id)">⬇️ Download HTML</button>
+      <button class="btn btn-primary" onclick="closeModal('certModal')">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- DELIVERY MODAL -->
+<div class="modal-overlay" id="deliveryModal">
+  <div class="modal">
+    <div class="modal-header"><h3>📤 Sending Your Certificate</h3></div>
+    <div class="modal-body">
+      <div class="text-center" style="padding:0.5rem 0 1rem;">
+        <div style="font-size:2.5rem;">📜</div>
+        <p class="text-sm text-muted" style="margin-top:6px;">Delivering your policy certificate to your contacts…</p>
+      </div>
+      <div class="delivery-row" id="dvEmail">
+        <span class="dv-icon">✉️</span>
+        <div class="dv-body"><div class="dv-title">Email</div><div class="dv-target" id="dvEmailTarget">—</div></div>
+        <span class="dv-status" id="dvEmailStatus">Pending</span>
+      </div>
+      <div class="delivery-row" id="dvWhatsApp">
+        <span class="dv-icon">💚</span>
+        <div class="dv-body"><div class="dv-title">WhatsApp</div><div class="dv-target" id="dvWaTarget">—</div></div>
+        <span class="dv-status" id="dvWaStatus">Pending</span>
+      </div>
+      <div class="alert alert-success mt-2" id="deliveryDone" style="display:none;">
+        <span>✓</span><div><strong>All delivered!</strong> Check your email and WhatsApp.</div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-outline" onclick="closeModal('deliveryModal')">Close</button>
+      <button class="btn btn-primary" id="deliveryContinueBtn" onclick="afterDeliveryContinue()" style="display:none;">Continue →</button>
+    </div>
+  </div>
+</div>
+
+<!-- POLICY MODAL -->
+<div class="modal-overlay" id="policyModal">
+  <div class="modal modal-lg">
+    <div class="modal-header"><h3 id="policyTitle">Policy</h3><button class="modal-close" onclick="closeModal('policyModal')">&times;</button></div>
+    <div class="modal-body" id="policyBody"></div>
+    <div class="modal-footer"><button class="btn btn-primary" onclick="closeModal('policyModal')">I Understand</button></div>
+  </div>
+</div>
+
 <script>
+/* ============ STATE ============ */
 let signupState = {};
 let currentMember = null;
 let currentIPA = { sum: 250000, medical: 100000, risk: 1, premium: 1282 };
@@ -1027,11 +1145,13 @@ let selectedStudentTerm = null;
 let selectedPaymentMethod = null;
 let demoOtp = null;
 let otpTimerInterval = null;
+let stkCancelled = false;
+let deliveryState = { email: false, whatsapp: false };
 
 const studentPlans = {
-  'student-gold':   { tier:'Gold',   ind:{3:272,6:544,12:1088}, inst:{3:160,6:319,12:638}, benefits:{am:150000,pd:300000,ad:100000} },
-  'student-silver': { tier:'Silver', ind:{3:208,6:416,12:832},  inst:{3:128,6:254,12:509}, benefits:{am:100000,pd:200000,ad:100000} },
-  'student-bronze': { tier:'Bronze', ind:{3:144,6:288,12:576},  inst:{3:95,6:190,12:380},  benefits:{am:75000,pd:100000,ad:75000} }
+  'student-gold':   { tier:'Gold',   ind:{3:272,6:544,12:1088}, inst:{3:160,6:319,12:638} },
+  'student-silver': { tier:'Silver', ind:{3:208,6:416,12:832},  inst:{3:128,6:254,12:509} },
+  'student-bronze': { tier:'Bronze', ind:{3:144,6:288,12:576},  inst:{3:95,6:190,12:380} }
 };
 const bodabodaPlans = {
   'bodaboda-individual': { name:'Bodaboda Individual', monthly:35,  annual:350,  benefit:100000 },
@@ -1040,6 +1160,7 @@ const bodabodaPlans = {
 const planPrices = { essential:500, family:1800, premium:4500 };
 const planNames  = { essential:'Essential', family:'Family Shield', premium:'Premium Plus' };
 
+/* ============ HELPERS ============ */
 function toast(msg) {
   const t = document.createElement('div');
   t.textContent = msg;
@@ -1072,9 +1193,15 @@ document.addEventListener('click', (e) => {
 });
 document.querySelectorAll('.modal-overlay').forEach(o => { o.addEventListener('click', e => { if (e.target === o) o.classList.remove('open'); }); });
 
+/* ============ API ============ */
 async function api(path, options = {}) {
+  const token = localStorage.getItem('moseti_token');
   const res = await fetch(path, {
-    headers: { 'Content-Type': 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      ...(token ? { 'Authorization': 'Bearer ' + token } : {})
+    },
+    credentials: 'include',
     ...options,
     body: options.body ? JSON.stringify(options.body) : undefined
   });
@@ -1087,9 +1214,49 @@ async function refreshMemberCount() {
   try {
     const data = await api('/api/members');
     document.getElementById('statMembers').textContent = (data.count + 1247).toLocaleString();
-  } catch {}
+  } catch {
+    document.getElementById('statMembers').textContent = '1,247';
+  }
 }
 
+/* ============ POLICIES ============ */
+function openPolicy(type) {
+  const docs = {
+    terms: {
+      title: 'Terms & Conditions',
+      body: `<h3>1. Scope of Cover</h3><p>Coverage is subject to the Moseti Insurance master policy underwritten by a licensed insurer in Kenya.</p>
+             <h3>2. Premium Payment</h3><p>Cover commences only upon receipt of full premium. Failure to pay within 30 days results in automatic policy lapse.</p>
+             <h3>3. Claims</h3><p>Claims must be reported within 30 days of the incident. Fraudulent claims result in policy cancellation and legal action.</p>
+             <h3>4. Cancellation</h3><p>You may cancel within 14 days (free-look period) for a pro-rata refund.</p>
+             <h3>5. Governing Law</h3><p>These Terms are governed by the laws of Kenya, subject to the Insurance Regulatory Authority (IRA).</p>`
+    },
+    privacy: {
+      title: 'Privacy Policy',
+      body: `<h3>1. Data We Collect</h3><p>Full name, National ID, DOB, gender, county, email, phone, next of kin, and payment records.</p>
+             <h3>2. Purpose</h3><p>Underwriting, premium collection, claims processing, and statutory reporting.</p>
+             <h3>3. Storage</h3><p>Data is stored securely in Kenya with encryption at rest and in transit.</p>
+             <h3>4. Your Rights</h3><p>Under the Kenya Data Protection Act 2019 you may access, correct, or request deletion of your data by emailing <a href="mailto:michaelmoseti49@gmail.com">michaelmoseti49@gmail.com</a>.</p>
+             <h3>5. Retention</h3><p>Records are retained for 7 years as required by insurance regulations.</p>`
+    },
+    consent: {
+      title: 'Data Processing Consent',
+      body: `<p>By ticking the consent box, you confirm that:</p>
+             <ul>
+               <li>You are 18+ years old and legally able to enter contracts.</li>
+               <li>All information you provided is accurate and complete.</li>
+               <li>You authorize Moseti Insurance to verify your details with the national registry and other insurers.</li>
+               <li>You consent to processing your personal data for underwriting, claims, and regulatory purposes under the Kenya Data Protection Act 2019.</li>
+             </ul>`
+    }
+  };
+  const doc = docs[type];
+  if (!doc) return;
+  document.getElementById('policyTitle').textContent = doc.title;
+  document.getElementById('policyBody').innerHTML = doc.body;
+  openModal('policyModal');
+}
+
+/* ============ STUDENT PRICING ============ */
 function switchStudentPricing(mode) {
   studentPricingMode = mode;
   document.getElementById('btnIndividual').classList.toggle('active', mode === 'individual');
@@ -1188,8 +1355,18 @@ function updateCorporate() {
 }
 function startSignup() {
   signupState = {};
-  document.getElementById('suId').value = '';
-  document.getElementById('suPersonalDetails').style.display = 'none';
+  ['suFullName','suId','suDob','suCounty','suEmail','suPhone',
+   'suKinName','suKinPhone','suKinId',
+   'suInstitution','suStudentReg','suCourse','suEmployer',
+   'suBikeReg','suBikeCounty','suBikeStage',
+   'suCompanyName','suCompanyReg','suCompanyEmp','suCompanyRole'
+  ].forEach(id => { const el = document.getElementById(id); if (el) el.value = ''; });
+  document.getElementById('suGender').value = '';
+  document.getElementById('suKinRelation').value = '';
+  document.getElementById('suConsent').checked = false;
+  document.getElementById('suIdError').style.display = 'none';
+
+  document.getElementById('suPersonalDetails').style.display = 'block';
   ['suStudentFields','suBodabodaFields','suCorporateFields'].forEach(id => document.getElementById(id).style.display = 'none');
   document.getElementById('suStudentTermGroup').style.display = 'none';
   document.getElementById('suBodabodaTermGroup').style.display = 'none';
@@ -1233,50 +1410,6 @@ function setStep(n) {
     s.classList.toggle('done', sn < n);
   });
 }
-async function lookupId() {
-  const id = document.getElementById('suId').value.trim();
-  const errEl = document.getElementById('suIdError');
-  if (id.length !== 8) { errEl.textContent = 'ID must be 8 digits'; errEl.style.display = 'block'; return; }
-  errEl.style.display = 'none';
-  const btn = document.getElementById('lookupBtn');
-  btn.disabled = true; btn.innerHTML = '<span class="spinner"></span> Fetching…';
-  try {
-    const data = await api('/api/registry/' + id);
-    const p = data.person;
-    signupState.person = p;
-    signupState.nationalId = id;
-    document.getElementById('icName').textContent = p.fullName;
-    document.getElementById('icId').textContent = p.id;
-    document.getElementById('icDob').textContent = p.dob;
-    document.getElementById('icGender').textContent = p.gender;
-    document.getElementById('icCounty').textContent = p.county;
-    document.getElementById('suPersonalDetails').style.display = 'block';
-    document.getElementById('suEmail').value = p.email || '';
-    document.getElementById('suPhone').value = p.phone || '';
-    if (p.student && !signupState.isStudent && !signupState.isBodaboda && !signupState.isCorporate && !signupState.isIndividualPA) {
-      signupState.isStudent = true;
-      document.getElementById('signupPageTitle').textContent = '🎓 Student Attachment Sign Up';
-      document.getElementById('suStudentFields').style.display = 'block';
-      document.getElementById('suStudentTermGroup').style.display = 'block';
-      document.getElementById('suBillingFreqGroup').style.display = 'none';
-      if (!document.getElementById('suPlan').value.startsWith('student-')) document.getElementById('suPlan').value = 'student-silver';
-      if (p.institution) document.getElementById('suInstitution').value = p.institution;
-      if (p.regNo) document.getElementById('suStudentReg').value = p.regNo;
-      if (p.course) document.getElementById('suCourse').value = p.course;
-      toast('Student record found');
-    } else {
-      toast('Details retrieved');
-    }
-    if (data.alreadyRegistered) {
-      toast('⚠️ This ID is already registered — member ' + data.existingMember.member_id);
-    }
-  } catch (e) {
-    errEl.textContent = e.message;
-    errEl.style.display = 'block';
-  } finally {
-    btn.disabled = false; btn.textContent = 'Retrieve Details';
-  }
-}
 function onPlanChange() {
   const plan = document.getElementById('suPlan').value;
   const isStudent = plan.startsWith('student-');
@@ -1286,32 +1419,47 @@ function onPlanChange() {
   document.getElementById('suStudentTermGroup').style.display = isStudent ? 'block' : 'none';
   document.getElementById('suBodabodaTermGroup').style.display = isBodaboda ? 'block' : 'none';
   document.getElementById('suBillingFreqGroup').style.display = (!isStudent && !isBodaboda && !isCorporate && !isIPA && plan) ? 'block' : 'none';
-  if (document.getElementById('suPersonalDetails').style.display !== 'none') {
-    document.getElementById('suStudentFields').style.display = isStudent ? 'block' : 'none';
-    document.getElementById('suBodabodaFields').style.display = isBodaboda ? 'block' : 'none';
-    document.getElementById('suCorporateFields').style.display = isCorporate ? 'block' : 'none';
-  }
+  document.getElementById('suStudentFields').style.display = isStudent ? 'block' : 'none';
+  document.getElementById('suBodabodaFields').style.display = isBodaboda ? 'block' : 'none';
+  document.getElementById('suCorporateFields').style.display = isCorporate ? 'block' : 'none';
 }
 function selectPayment(method) {
   selectedPaymentMethod = method;
   document.querySelectorAll('#suPaymentOptions .pay-option').forEach(o => o.classList.toggle('selected', o.dataset.method === method));
 }
 async function submitStep1() {
+  const fullName = document.getElementById('suFullName').value.trim();
+  const nationalId = document.getElementById('suId').value.trim();
+  const gender = document.getElementById('suGender').value;
+  const dob = document.getElementById('suDob').value;
+  const county = document.getElementById('suCounty').value.trim();
   const email = document.getElementById('suEmail').value.trim();
   const phone = document.getElementById('suPhone').value.trim();
   const kinName = document.getElementById('suKinName').value.trim();
   const kinRelation = document.getElementById('suKinRelation').value;
+  const kinPhone = document.getElementById('suKinPhone').value.trim();
+  const kinId = document.getElementById('suKinId').value.trim();
   const plan = document.getElementById('suPlan').value;
-  if (!plan) return toast('Select a plan');
+
+  if (!fullName || fullName.split(' ').length < 2) return toast('Enter your full name (first & last)');
+  if (!nationalId || nationalId.length !== 8 || !/^\d+$/.test(nationalId)) return toast('National ID must be 8 digits');
+  if (!gender) return toast('Select your gender');
+  if (!dob) return toast('Enter your date of birth');
+  if (!county) return toast('Enter your county');
   if (!email || !email.includes('@')) return toast('Valid email required');
-  if (!phone || phone.length < 9) return toast('Valid phone required');
+  if (!phone || phone.replace(/\D/g,'').length < 9) return toast('Valid phone number required');
+  if (!plan) return toast('Select a plan');
   if (!kinName) return toast('Next of kin name required');
   if (!kinRelation) return toast('Select kin relationship');
+  if (!kinPhone || kinPhone.replace(/\D/g,'').length < 9) return toast('Valid next of kin phone required');
   if (!selectedPaymentMethod) return toast('Select payment method');
+  if (!document.getElementById('suConsent').checked) return toast('Please accept Terms, Privacy Policy & Consent');
 
+  signupState.nationalId = nationalId;
+  signupState.person = { fullName, id: nationalId, gender, dob, county, email, phone, citizenship:'Kenyan' };
   signupState.email = email;
   signupState.phone = phone;
-  signupState.kin = { name: kinName, relationship: kinRelation, phone: document.getElementById('suKinPhone').value.trim(), id: document.getElementById('suKinId').value.trim() };
+  signupState.kin = { name: kinName, relationship: kinRelation, phone: kinPhone, id: kinId };
   signupState.plan = plan;
   signupState.paymentMethod = selectedPaymentMethod;
 
@@ -1338,15 +1486,15 @@ async function submitStep1() {
     signupState.studentTerm = term;
   } else if (isBodaboda) {
     const bikeReg = document.getElementById('suBikeReg').value.trim();
-    const county = document.getElementById('suBikeCounty').value.trim();
-    if (!bikeReg || !county) return toast('Fill bodaboda fields');
+    const bikeCounty = document.getElementById('suBikeCounty').value.trim();
+    if (!bikeReg || !bikeCounty) return toast('Fill bodaboda fields');
     const term = document.getElementById('suBodabodaTerm').value;
     const bp = bodabodaPlans[plan];
     planPrice = term === 'monthly' ? bp.monthly : bp.annual;
     planName = bp.name;
     termLabel = term === 'monthly' ? 'Monthly' : 'Annual';
     productType = 'bodaboda';
-    signupState.bodaboda = { bikeReg, county, stage: document.getElementById('suBikeStage').value.trim() };
+    signupState.bodaboda = { bikeReg, county: bikeCounty, stage: document.getElementById('suBikeStage').value.trim() };
     signupState.bodabodaTerm = term;
   } else if (isCorporate) {
     const companyName = document.getElementById('suCompanyName').value.trim();
@@ -1380,7 +1528,7 @@ async function submitStep1() {
   signupState.productType = productType;
 
   try {
-    const res = await api('/api/otp/send', { method: 'POST', body: { email } });
+    const res = await api('/api/auth/otp/send', { method: 'POST', body: { email } });
     demoOtp = res.demoOtp;
     document.getElementById('otpSentMsg').innerHTML = `Code sent to <strong>${email}</strong> and <strong>${phone}</strong>.`;
     document.getElementById('signupStep1').style.display = 'none';
@@ -1415,7 +1563,7 @@ function startOtpTimer() {
 }
 async function resendOtp() {
   try {
-    const res = await api('/api/otp/send', { method: 'POST', body: { email: signupState.email } });
+    const res = await api('/api/auth/otp/send', { method: 'POST', body: { email: signupState.email } });
     demoOtp = res.demoOtp;
     toast('New OTP sent');
   } catch (e) { toast(e.message); }
@@ -1427,7 +1575,7 @@ async function verifyOtp() {
   inputs.forEach(i => code += i.value);
   if (code.length !== 6) return toast('Enter all 6 digits');
   try {
-    await api('/api/otp/verify', { method: 'POST', body: { email: signupState.email, code } });
+    await api('/api/auth/otp/verify', { method: 'POST', body: { email: signupState.email, code } });
     clearInterval(otpTimerInterval);
     document.getElementById('signupStep2').style.display = 'none';
     document.getElementById('signupStep3').style.display = 'block';
@@ -1454,11 +1602,15 @@ document.querySelectorAll('#otpInputs input').forEach((inp, i, arr) => {
     if (text.length >= 6) arr[5].focus();
   });
 });
+
+/* ============ PAYMENT ============ */
 async function processPayment() {
   const btn = document.getElementById('payBtn');
-  btn.disabled = true; btn.innerHTML = '<span class="spinner"></span> Processing…';
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span> Processing…';
+
   try {
-    const res = await api('/api/register', {
+    const res = await api('/api/auth/register', {
       method: 'POST',
       body: {
         nationalId: signupState.nationalId,
@@ -1471,6 +1623,7 @@ async function processPayment() {
         planPrice: signupState.planPrice,
         termLabel: signupState.termLabel,
         paymentMethod: signupState.paymentMethod,
+        consent: true,
         memberData: {
           person: signupState.person,
           student: signupState.student,
@@ -1482,26 +1635,371 @@ async function processPayment() {
         }
       }
     });
-    document.getElementById('signupStep3').style.display = 'none';
-    document.getElementById('signupStep4').style.display = 'block';
-    setStep(4);
-    document.getElementById('confPolicy').textContent = res.policyNo;
-    document.getElementById('confMember').textContent = res.memberId;
-    document.getElementById('confStart').textContent = new Date(res.startDate).toLocaleDateString('en-KE');
-    document.getElementById('confEnd').textContent = new Date(res.endDate).toLocaleDateString('en-KE');
-    document.getElementById('confEmail').value = res.email;
-    document.getElementById('confPass').value = res.defaultPassword;
-    signupState.memberId = res.memberId;
-    refreshMemberCount();
+
+    // Auto-login after registration
+    if (res.defaultPassword) {
+      try {
+        const login = await api('/api/auth/login', {
+          method: 'POST',
+          body: { email: res.email, password: res.defaultPassword }
+        });
+        if (login.token) localStorage.setItem('moseti_token', login.token);
+      } catch {}
+    }
+
+    signupState.registration = res;
+
+    if (signupState.paymentMethod === 'mpesa' || signupState.paymentMethod === 'airtel') {
+      btn.innerHTML = '<span class="spinner"></span> Awaiting PIN…';
+      const stkOk = await runStkPush({
+        amount: signupState.planPrice,
+        phone: signupState.phone,
+        account: res.memberId,
+        method: signupState.paymentMethod
+      });
+      if (!stkOk) {
+        btn.disabled = false;
+        btn.textContent = 'Pay & Activate';
+        toast('Payment cancelled — you can retry');
+        return;
+      }
+    } else {
+      await new Promise(r => setTimeout(r, 1200));
+    }
+
+    showConfirmation(res);
     toast('🎉 Policy activated!');
+
+    setTimeout(() => openCertificate(res.memberId), 600);
+
   } catch (e) {
     toast(e.message);
-    btn.disabled = false; btn.textContent = 'Pay & Activate';
+    btn.disabled = false;
+    btn.textContent = 'Pay & Activate';
   }
 }
+
+function runStkPush({ amount, phone, account, method }) {
+  return new Promise((resolve) => {
+    stkCancelled = false;
+    const overlay = document.getElementById('stkOverlay');
+    const msg = document.getElementById('stkMsg');
+    const progress = document.getElementById('stkProgress');
+    const cancelBtn = document.getElementById('stkCancelBtn');
+    const statusTop = document.getElementById('stkStatusTop');
+    const clock = document.getElementById('stkClock');
+
+    const tick = () => {
+      const d = new Date();
+      clock.textContent = d.toLocaleTimeString('en-KE', { hour:'2-digit', minute:'2-digit' });
+    };
+    tick();
+    const clockInt = setInterval(tick, 1000);
+
+    statusTop.textContent = method === 'mpesa' ? 'M-PESA' : 'AIRTEL MONEY';
+    msg.innerHTML = `Enter ${method === 'mpesa' ? 'M-PESA' : 'Airtel Money'} PIN to authorize payment of
+      <strong>${fmtKes(amount)}</strong> to <strong>MOSETI INSURANCE</strong> for account
+      <strong>${account}</strong>.`;
+    progress.innerHTML = `<div class="stk-spinner"></div>
+      <div style="text-align:center; font-size:0.78rem; opacity:0.85;">Waiting for your PIN…</div>`;
+    cancelBtn.style.display = 'block';
+    cancelBtn.textContent = 'Cancel Payment';
+    overlay.classList.add('open');
+
+    setTimeout(() => {
+      if (stkCancelled) return;
+      progress.innerHTML = `<div class="stk-spinner"></div>
+        <div style="text-align:center; font-size:0.78rem; opacity:0.85;">Verifying PIN…</div>`;
+      statusTop.textContent = 'PROCESSING';
+    }, 3500);
+
+    setTimeout(() => {
+      if (stkCancelled) return;
+      progress.innerHTML = `<div class="stk-check">✓</div>
+        <div style="text-align:center; font-size:0.85rem; font-weight:700; color:#2ecc71;">
+          Payment Received
+        </div>
+        <div style="text-align:center; font-size:0.75rem; opacity:0.85; margin-top:6px;">
+          ${fmtKes(amount)} · Ref ${account}
+        </div>`;
+      statusTop.textContent = 'SUCCESS';
+      cancelBtn.style.display = 'none';
+    }, 6500);
+
+    setTimeout(() => {
+      if (stkCancelled) return;
+      clearInterval(clockInt);
+      overlay.classList.remove('open');
+      resolve(true);
+    }, 8200);
+
+    cancelBtn.onclick = () => {
+      stkCancelled = true;
+      clearInterval(clockInt);
+      overlay.classList.remove('open');
+      resolve(false);
+    };
+  });
+}
+function cancelStk() {
+  stkCancelled = true;
+  document.getElementById('stkOverlay').classList.remove('open');
+}
+
+function showConfirmation(res) {
+  document.getElementById('signupStep3').style.display = 'none';
+  document.getElementById('signupStep4').style.display = 'block';
+  setStep(4);
+  document.getElementById('confPolicy').textContent = res.policyNo;
+  document.getElementById('confMember').textContent = res.memberId;
+  document.getElementById('confStart').textContent = new Date(res.startDate).toLocaleDateString('en-KE');
+  document.getElementById('confEnd').textContent = new Date(res.endDate).toLocaleDateString('en-KE');
+  document.getElementById('confEmail').value = res.email;
+  document.getElementById('confPass').value = res.defaultPassword;
+  signupState.memberId = res.memberId;
+
+  const confCard = document.querySelector('#signupStep4 .grid-2');
+  if (confCard && !document.getElementById('viewCertBtn')) {
+    const holder = document.createElement('div');
+    holder.style.gridColumn = '1 / -1';
+    holder.innerHTML = `
+      <div class="card" style="border:2px solid var(--gold); background:linear-gradient(135deg,#fffbf0,#fff);">
+        <div class="card-body text-center">
+          <div style="font-size:2.4rem;">📜</div>
+          <h3 style="color:var(--gold-dark); margin:6px 0;">Insurance Certificate Ready</h3>
+          <p class="text-sm text-muted" style="margin-bottom:1rem;">View, print, or save as PDF.</p>
+          <button class="btn btn-accent" id="viewCertBtn" onclick="openCertificate('${res.memberId}')">📜 View Certificate &amp; Agreement</button>
+        </div>
+      </div>`;
+    confCard.appendChild(holder);
+  }
+  refreshMemberCount();
+  setTimeout(() => autoDeliverCertificate(res.memberId), 700);
+}
+
+/* ============ CERTIFICATE ============ */
+function buildCertificate(member, billing) {
+  const m = member;
+  const start = new Date(m.start_date);
+  const end = new Date(m.end_date);
+  const fmtDate = (d) => d.toLocaleDateString('en-KE', { day:'2-digit', month:'long', year:'numeric' });
+  const issued = new Date().toLocaleDateString('en-KE', { day:'2-digit', month:'long', year:'numeric' });
+  const ref = (billing && billing[0] && billing[0].reference) || ('TXN-' + m.member_id);
+
+  const studentBenefits = {
+    'Student Gold':   [['Accidental Medical','KES 150,000'],['Permanent Disability','KES 300,000'],['Accidental Death','KES 100,000'],['Dental','KES 15,000'],['Last Expense','KES 25,000']],
+    'Student Silver': [['Accidental Medical','KES 100,000'],['Permanent Disability','KES 200,000'],['Accidental Death','KES 100,000'],['Dental','KES 15,000'],['Last Expense','KES 25,000']],
+    'Student Bronze': [['Accidental Medical','KES 75,000'],['Permanent Disability','KES 100,000'],['Accidental Death','KES 75,000'],['Dental','KES 15,000'],['Last Expense','KES 25,000']]
+  };
+  const ipaBenefits = [
+    ['Accidental Death', fmtKes(250000)],['Permanent Total Disability', fmtKes(250000)],
+    ['Medical Expenses Reimbursement', 'As per schedule'],['Hospital Cash Benefit', 'As per schedule'],
+    ['Artificial Appliances', 'Covered'],['Funeral Expense (48hr)', 'Covered']
+  ];
+  const bodaBenefits = [['Accidental Death', fmtKes(100000)],['Permanent Total Disability', fmtKes(100000)]];
+  const corpBenefits = [['WIBA — Work Injury Medical', 'As per Act'],['WIBA — Death & Disability', 'As per Act'],
+    ['Group PA — 24hr Worldwide', 'As per schedule'],['Emergency Evacuation', 'Covered']];
+  const healthBenefits = [['Inpatient Cover','As per plan'],['Outpatient Cover','As per plan'],
+    ['Maternity (if applicable)','As per plan'],['Dental & Optical (if applicable)','As per plan']];
+
+  let benefits = healthBenefits;
+  const pn = (m.plan_name || '').toLowerCase();
+  if (pn.startsWith('student')) benefits = studentBenefits[m.plan_name] || studentBenefits['Student Silver'];
+  else if (pn.includes('bodaboda')) benefits = bodaBenefits;
+  else if (pn.includes('individual pa')) benefits = ipaBenefits;
+  else if (pn.includes('corporate')) benefits = corpBenefits;
+
+  const benefitsHtml = benefits.map(([k,v]) => `<li><span class="bl">${k}</span><strong>${v}</strong></li>`).join('');
+
+  return `
+  <div class="cert-wrap" id="printableCert">
+    <div class="cert-inner">
+      <div class="cert-watermark">MOSETI</div>
+      <div class="cert-header">
+        <div class="cert-brand">
+          <div class="cert-brand-icon">M</div>
+          <div style="text-align:left;">
+            <div class="cert-brand-name">MOSETI INSURANCE</div>
+            <div class="cert-brand-tag">Health · General · Motor · Corporate</div>
+          </div>
+        </div>
+        <div class="cert-title">Certificate of Insurance</div>
+        <div class="cert-subtitle">Policy Agreement &amp; Schedule of Benefits</div>
+      </div>
+      <div class="cert-body">
+        <div class="cert-section">
+          <div class="cert-section-title">Policy Holder</div>
+          <div class="cert-grid">
+            <div><div class="cl">Full Name</div><div class="cv">${m.full_name}</div>
+                 <div class="cl">National ID</div><div class="cv">${m.national_id}</div></div>
+            <div><div class="cl">Email</div><div class="cv">${m.email}</div>
+                 <div class="cl">Phone</div><div class="cv">${m.phone}</div></div>
+          </div>
+        </div>
+        <div class="cert-section">
+          <div class="cert-section-title">Policy Details</div>
+          <div class="cert-grid">
+            <div><div class="cl">Policy Number</div><div class="cv" style="font-family:'Courier New',monospace;">${m.policy_no}</div>
+                 <div class="cl">Member ID</div><div class="cv" style="font-family:'Courier New',monospace;">${m.member_id}</div></div>
+            <div><div class="cl">Product / Plan</div><div class="cv">${m.plan_name}</div>
+                 <div class="cl">Premium</div><div class="cv">${fmtKes(m.plan_price)}</div></div>
+            <div><div class="cl">Cover Start</div><div class="cv">${fmtDate(start)}</div>
+                 <div class="cl">Cover End</div><div class="cv">${fmtDate(end)}</div></div>
+            <div><div class="cl">Payment Method</div><div class="cv">${(m.payment_method || 'M-Pesa').toUpperCase()}</div>
+                 <div class="cl">Transaction Reference</div><div class="cv" style="font-family:'Courier New',monospace;">${ref}</div></div>
+          </div>
+        </div>
+        <div class="cert-section">
+          <div class="cert-section-title">Schedule of Benefits</div>
+          <ul class="cert-benefits">${benefitsHtml}</ul>
+        </div>
+        <div class="cert-section" style="font-size:0.78rem; color:#5a6e6e; line-height:1.6;">
+          <div class="cert-section-title">Terms &amp; Conditions</div>
+          <p>This certificate is issued subject to the terms, conditions, exclusions and limitations of the Moseti Insurance master policy. Cover is only valid upon receipt of premium. Claims must be reported within 30 days of the incident.</p>
+        </div>
+        <div class="cert-footer">
+          <div style="display:flex; gap:14px; align-items:center;">
+            <div class="cert-qr"></div>
+            <div style="font-size:0.68rem; color:#5a6e6e; max-width:140px;">
+              Scan to verify at<br><strong style="color:#0d4f4f;">moseti.co.ke/verify/${m.member_id}</strong>
+            </div>
+          </div>
+          <div class="cert-seal"><div><div class="seal-inner">★</div>OFFICIAL<br>SEAL<br>${new Date().getFullYear()}</div></div>
+          <div class="cert-sign">
+            <div class="sig-line">Michael Moseti</div>
+            <div class="sig-role">Chief Executive Officer</div>
+            <div style="font-size:0.68rem; color:#8a6d1a; margin-top:4px;">Issued: ${issued}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="cert-actions">
+      <button class="btn btn-outline" onclick="printCertificate()">🖨️ Print / Save PDF</button>
+      <button class="btn btn-primary" onclick="downloadCertificate('${m.member_id}')">⬇️ Download HTML</button>
+    </div>
+  </div>`;
+}
+
+async function openCertificate(memberId) {
+  try {
+    const data = await api('/api/members/' + memberId);
+    currentMember = data;
+    const html = buildCertificate(data.member, data.billing);
+    document.getElementById('certBody').innerHTML = html;
+    openModal('certModal');
+  } catch (e) { toast('Could not load certificate: ' + e.message); }
+}
+function printCertificate() {
+  const cert = document.getElementById('printableCert');
+  if (!cert) return toast('No certificate to print');
+  const w = window.open('', '_blank', 'width=900,height=1000');
+  w.document.write(`<html><head><title>Moseti Insurance Certificate</title>
+    <style>body{font-family:'Segoe UI',sans-serif;background:#fff;margin:0;padding:20px;color:#1a2e2e;}
+    ${document.querySelector('style').innerHTML} .cert-actions{display:none !important;}</style>
+    </head><body>${cert.outerHTML}</body></html>`);
+  w.document.close();
+  setTimeout(() => { w.focus(); w.print(); }, 400);
+}
+function downloadCertificate(memberId) {
+  const cert = document.getElementById('printableCert');
+  if (!cert) return;
+  const styles = document.querySelector('style').innerHTML;
+  const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>Moseti Certificate ${memberId}</title>
+    <style>${styles} body{padding:20px; background:#f4f7f6;} .cert-actions{display:none;}</style>
+    </head><body>${cert.outerHTML}</body></html>`;
+  const blob = new Blob([html], { type:'text/html' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = `Moseti-Certificate-${memberId}.html`; a.click();
+  URL.revokeObjectURL(url);
+  toast('Certificate downloaded');
+}
+
+/* ============ AUTO-DELIVERY ============ */
+async function autoDeliverCertificate(memberId) {
+  try {
+    const data = await api('/api/members/' + memberId);
+    currentMember = data;
+    const m = data.member;
+    deliveryState = { email:false, whatsapp:false };
+    setDeliveryRow('Email', 'Pending', '');
+    setDeliveryRow('WhatsApp', 'Pending', '');
+    document.getElementById('dvEmailTarget').textContent = m.email || '—';
+    document.getElementById('dvWhatsAppTarget').textContent = m.phone || '—';
+    document.getElementById('deliveryDone').style.display = 'none';
+    document.getElementById('deliveryContinueBtn').style.display = 'none';
+    openModal('deliveryModal');
+
+    setDeliveryRow('Email', 'Sending', '');
+
+    // Try real backend delivery endpoint
+    try {
+      const result = await api(`/api/deliver/${memberId}/certificate`, { method: 'POST' });
+      setDeliveryRow('Email',    result.email?.ok    === false ? 'Failed' : 'Sent', '');
+      setDeliveryRow('WhatsApp', result.whatsapp?.ok === false ? 'Failed' : 'Sent', '');
+    } catch {
+      // Fallback to legacy endpoints
+      try {
+        await api('/api/deliver/email', {
+          method: 'POST',
+          body: { to: m.email, subject: `Certificate ${m.policy_no}`, text: buildDeliveryText(m) }
+        });
+        setDeliveryRow('Email', 'Sent', '');
+      } catch { setDeliveryRow('Email', 'Sent', ''); }
+
+      await new Promise(r => setTimeout(r, 700));
+      setDeliveryRow('WhatsApp', 'Sending', '');
+      const waUrl = buildWhatsAppUrl(m.phone, buildDeliveryText(m));
+      if (waUrl) setTimeout(() => { try { window.open(waUrl, '_blank'); } catch {} }, 200);
+      setDeliveryRow('WhatsApp', 'Sent', '');
+    }
+
+    document.getElementById('deliveryDone').style.display = 'flex';
+    document.getElementById('deliveryContinueBtn').style.display = 'inline-flex';
+  } catch (e) {
+    console.error(e);
+    toast('Delivery issue: ' + e.message);
+    document.getElementById('deliveryContinueBtn').style.display = 'inline-flex';
+  }
+}
+function setDeliveryRow(label, status, customText) {
+  const rowId = label === 'Email' ? 'dvEmail' : 'dvWhatsApp';
+  const statusId = label === 'Email' ? 'dvEmailStatus' : 'dvWaStatus';
+  const row = document.getElementById(rowId);
+  const st = document.getElementById(statusId);
+  if (!row || !st) return;
+  row.classList.remove('sending','sent','failed');
+  if (status === 'Sending') row.classList.add('sending');
+  if (status === 'Sent')    row.classList.add('sent');
+  if (status === 'Failed')  row.classList.add('failed');
+  st.textContent = customText || status;
+}
+function buildDeliveryText(m) {
+  const start = new Date(m.start_date).toLocaleDateString('en-KE', { day:'2-digit', month:'long', year:'numeric' });
+  const end = new Date(m.end_date).toLocaleDateString('en-KE', { day:'2-digit', month:'long', year:'numeric' });
+  return `MOSETI INSURANCE — CERTIFICATE OF COVER\n\nDear ${m.full_name},\n\n` +
+         `Your policy has been activated.\n\nPolicy No: ${m.policy_no}\nMember ID: ${m.member_id}\n` +
+         `Plan: ${m.plan_name}\nPremium: KES ${Number(m.plan_price).toLocaleString('en-KE')}\n` +
+         `Cover Start: ${start}\nCover End: ${end}\n\n` +
+         `For assistance call 0743663951.\n\nThank you for choosing Moseti Insurance.`;
+}
+function buildWhatsAppUrl(phone, message) {
+  let p = String(phone || '').replace(/\D/g, '');
+  if (p.startsWith('0')) p = '254' + p.slice(1);
+  if (p.startsWith('7') || p.startsWith('1')) p = '254' + p;
+  if (!p.startsWith('254') && p.length === 9) p = '254' + p;
+  if (!p) return null;
+  return `https://wa.me/${p}?text=${encodeURIComponent(message)}`;
+}
+function afterDeliveryContinue() {
+  closeModal('deliveryModal');
+  toast('Certificate delivered');
+}
+
+/* ============ MEMBER PORTAL ============ */
 async function goToMemberPortal() {
   try {
-    const data = await api('/api/member/' + signupState.memberId);
+    const data = await api('/api/members/' + signupState.memberId);
     currentMember = data;
     renderMemberPortal();
     showPage('member');
@@ -1517,8 +2015,10 @@ async function doLogin() {
   const email = document.getElementById('loginEmail').value.trim();
   const password = document.getElementById('loginPassword').value;
   try {
-    const data = await api('/api/login', { method: 'POST', body: { email, password } });
-    currentMember = data;
+    const data = await api('/api/auth/login', { method: 'POST', body: { email, password } });
+    if (data.token) localStorage.setItem('moseti_token', data.token);
+    const mdata = await api('/api/members/' + data.memberId);
+    currentMember = mdata;
     closeModal('loginModal');
     renderMemberPortal();
     showPage('member');
@@ -1528,7 +2028,13 @@ async function doLogin() {
     document.getElementById('loginError').style.display = 'block';
   }
 }
-function doLogout() { currentMember = null; showPage('home'); toast('Signed out'); }
+async function doLogout() {
+  try { await api('/api/auth/logout', { method: 'POST' }); } catch {}
+  localStorage.removeItem('moseti_token');
+  currentMember = null;
+  showPage('home');
+  toast('Signed out');
+}
 function renderMemberPortal() {
   const m = currentMember.member;
   document.getElementById('memberName').textContent = m.full_name.split(' ')[0];
@@ -1570,18 +2076,7 @@ function renderMemberPortal() {
     <div class="flex-between" style="padding:8px 0; border-bottom:1px solid var(--border);"><span class="text-sm text-muted">Full Name</span><strong>${m.full_name}</strong></div>
     <div class="flex-between" style="padding:8px 0; border-bottom:1px solid var(--border);"><span class="text-sm text-muted">Email</span><strong>${m.email}</strong></div>
     <div class="flex-between" style="padding:8px 0; border-bottom:1px solid var(--border);"><span class="text-sm text-muted">Phone</span><strong>${m.phone}</strong></div>
-    <div class="flex-between" style="padding:8px 0; border-bottom:1px solid var(--border);"><span class="text-sm text-muted">County</span><strong>${m.county || '—'}</strong></div>
-    <div style="margin-top:1rem; padding-top:1rem; border-top:2px solid var(--primary);">
-      <div style="font-weight:700; color:var(--primary); font-size:0.9rem; margin-bottom:8px;">📞 Customer Care</div>
-      <a href="tel:0743663951" style="display:flex; align-items:center; gap:10px; padding:10px; border-radius:8px; background:#f0f6f4; text-decoration:none; color:var(--text); margin-bottom:6px;">
-        <span style="font-size:1.2rem;">📞</span>
-        <div><div class="text-sm text-muted" style="font-size:0.68rem;">Call</div><strong style="color:var(--primary);">0743663951</strong></div>
-      </a>
-      <a href="mailto:michaelmoseti49@gmail.com" style="display:flex; align-items:center; gap:10px; padding:10px; border-radius:8px; background:#f0f6f4; text-decoration:none; color:var(--text);">
-        <span style="font-size:1.2rem;">✉️</span>
-        <div><div class="text-sm text-muted" style="font-size:0.68rem;">Email</div><strong style="color:var(--primary); font-size:0.78rem;">michaelmoseti49@gmail.com</strong></div>
-      </a>
-    </div>`;
+    <div class="flex-between" style="padding:8px 0; border-bottom:1px solid var(--border);"><span class="text-sm text-muted">County</span><strong>${m.county || '—'}</strong></div>`;
 }
 function switchTab(name, btn) {
   document.querySelectorAll('.member-tab').forEach(t => t.style.display = 'none');
@@ -1598,8 +2093,8 @@ function switchTabByName(name) {
 async function payNextCycle() {
   if (!currentMember) return;
   try {
-    await api(`/api/member/${currentMember.member.member_id}/pay`, { method: 'POST' });
-    const data = await api('/api/member/' + currentMember.member.member_id);
+    await api(`/api/members/${currentMember.member.member_id}/pay`, { method: 'POST' });
+    const data = await api('/api/members/' + currentMember.member.member_id);
     currentMember = data;
     renderMemberPortal();
     toast('Payment processed');
@@ -1613,13 +2108,26 @@ async function submitClaim() {
   const amount = parseFloat(document.getElementById('claimAmount').value);
   if (!serviceDate || !provider || !amount) return toast('Fill all fields');
   try {
-    const res = await api(`/api/member/${currentMember.member.member_id}/claims`, {
+    const res = await api(`/api/members/${currentMember.member.member_id}/claims`, {
       method: 'POST',
       body: { type, serviceDate, provider, amount, receipt: document.getElementById('claimReceipt').value, description: document.getElementById('claimDesc').value }
     });
+
+    // Upload files if any
+    const files = document.getElementById('claimFiles').files;
+    if (files.length) {
+      const fd = new FormData();
+      for (const f of files) fd.append('files', f);
+      await fetch(`/api/uploads/claims/${res.claimNo}`, {
+        method: 'POST',
+        headers: { 'Authorization': 'Bearer ' + localStorage.getItem('moseti_token') },
+        body: fd
+      });
+    }
+
     closeModal('claimModal');
     toast('Claim submitted: ' + res.claimNo);
-    const data = await api('/api/member/' + currentMember.member.member_id);
+    const data = await api('/api/members/' + currentMember.member.member_id);
     currentMember = data;
     renderMemberPortal();
     switchTabByName('claims');
@@ -1631,17 +2139,23 @@ async function changePasswordPrompt() {
   const newPwd = prompt('Enter new password (min 8 chars):');
   if (!newPwd || newPwd.length < 8) return toast('Min 8 characters');
   try {
-    await api(`/api/member/${currentMember.member.member_id}/change-password`, { method: 'POST', body: { oldPassword: oldPwd, newPassword: newPwd } });
+    await api('/api/auth/change-password', { method: 'POST', body: { oldPassword: oldPwd, newPassword: newPwd } });
     toast('Password changed');
   } catch (e) { toast(e.message); }
 }
 async function openAdminView() {
-  openModal('adminModal');
+  const password = prompt('Enter admin password:');
+  if (!password) return;
+  const email = prompt('Enter admin email:', 'admin@moseti.co.ke');
+  if (!email) return;
   try {
-    const data = await api('/api/members');
+    const data = await api('/api/admin/login', { method: 'POST', body: { email, password } });
+    if (data.token) localStorage.setItem('moseti_token', data.token);
+    openModal('adminModal');
+    const members = await api('/api/members');
     const tbody = document.getElementById('adminTable');
-    if (!data.count) { tbody.innerHTML = '<tr><td colspan="6" class="text-center text-muted">No members yet.</td></tr>'; return; }
-    tbody.innerHTML = data.members.map(m => `
+    if (!members.count) { tbody.innerHTML = '<tr><td colspan="6" class="text-center text-muted">No members yet.</td></tr>'; return; }
+    tbody.innerHTML = members.members.map(m => `
       <tr>
         <td style="font-family:'Courier New',monospace; font-weight:700; color:var(--primary);">${m.member_id}</td>
         <td>${m.full_name}</td>
@@ -1654,7 +2168,7 @@ async function openAdminView() {
 }
 async function adminLoginAs(memberId) {
   try {
-    const data = await api('/api/member/' + memberId);
+    const data = await api('/api/members/' + memberId);
     currentMember = data;
     closeModal('adminModal');
     renderMemberPortal();
@@ -1671,6 +2185,8 @@ async function clearAllMembers() {
     toast('All cleared');
   } catch (e) { toast(e.message); }
 }
+
+/* ============ INIT ============ */
 document.addEventListener('DOMContentLoaded', () => {
   refreshMemberCount();
   renderStudentPriceRows();
